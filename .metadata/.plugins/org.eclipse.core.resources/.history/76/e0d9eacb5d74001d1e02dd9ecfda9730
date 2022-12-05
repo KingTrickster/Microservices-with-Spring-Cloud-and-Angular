@@ -1,0 +1,5 @@
+package com.trxjster.usersmicroservice.dto;
+
+public class StudentDTO {
+
+}

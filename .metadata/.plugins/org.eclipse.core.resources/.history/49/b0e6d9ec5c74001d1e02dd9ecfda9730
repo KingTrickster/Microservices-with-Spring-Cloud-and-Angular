@@ -1,0 +1,22 @@
+package com.trxjster.usersmicroservice.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.trxjster.usersmicroservice.model.Student;
+import com.trxjster.usersmicroservice.repository.StudentRepo;
+
+import lombok.AllArgsConstructor;
+
+@Service
+@AllArgsConstructor
+public class StudentService {
+
+	private StudentRepo studentRepo;
+
+	public List<Student> getAll() {
+		return studentRepo.findAll();
+	}
+
+}

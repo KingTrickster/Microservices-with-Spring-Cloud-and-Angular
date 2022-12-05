@@ -1,0 +1,15 @@
+package com.trxjster.usersmicroservice.service;
+
+import org.springframework.stereotype.Service;
+
+import com.trxjster.usersmicroservice.repository.StudentRepo;
+
+import lombok.AllArgsConstructor;
+
+@Service
+@AllArgsConstructor
+public class StudentService {
+
+	private StudentRepo studentRepo;
+
+}
