@@ -1,5 +1,0 @@
-package com.trxjster.usersmicroservice.repository;
-
-public interface StudentRepo {
-
-}
